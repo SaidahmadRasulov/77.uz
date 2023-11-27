@@ -1,0 +1,151 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Для женщин",
+            "category": "For woman",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/womanCat.png"
+        },
+        {
+            "id": 2,
+            "title": "Для мужчин",
+            "category": "For man",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/manCat.png"
+        },
+        {
+            "id": 3,
+            "title": "Детские товары",
+            "category": "chilred",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/childrenCat.png"
+        },
+        {
+            "id": 4,
+            "title": "Обувь",
+            "category": "shoes",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/shoesCat.png"
+        },
+        {
+            "id": 5,
+            "title": "Автотовары",
+            "category": "autoparts",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/autopartsCat.png"
+        },
+        {
+            "id": 6,
+            "title": "Дача, сады и огороды",
+            "category": "garden",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/gardenCat.png"
+        }, 
+        {
+            "id": 7,
+            "title": "Бытовая химия и личная гигиена",
+            "category": "household",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/chemicHomeCat.png"
+        }, 
+        {
+            "id": 8,
+            "title": "Красота",
+            "category": "cosmetics",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/cosmeticsCat.png"
+        },
+        {
+            "id": 9,
+            "title": "Здоровья",
+            "category": "health",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/healthCat.png"
+        },
+        {
+            "id": 10,
+            "title": "Украшения и бижутерия",
+            "category": "decorations",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/decorationsCat.png"
+        },
+        {
+            "id": 11,
+            "title": "Канцелярия",
+            "category": "stationary",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/stationeryCat.png"
+        },
+        {
+            "id": 12,
+            "title": "Новые легковые автомобили",
+            "category": "auto",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/carCat.png"
+        },
+        {
+            "id": 13,
+            "title": "Личная гигиена",
+            "category": "selfclear",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/chemicHomeCat.png"
+        },
+        {
+            "id": 14,
+            "title": "Строительство и ремонт",
+            "category": "build",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/builderCat.png"
+        },
+        {
+            "id": 15,
+            "title": "Бытовая техника",
+            "category": "appliances",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/furnitureCat.png"
+        },
+        {
+            "id": 16,
+            "title": "Электроника",
+            "category": "electronics",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/electronicsCat.png"
+        },
+        {
+            "id": 17,
+            "title": "Домашняя утварь",
+            "category": "kitchen",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/kitchenFurnitureCat.png"
+        },
+        {
+            "id": 18,
+            "title": "Спорт и отдых",
+            "category": "sport",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/sportCat.png"
+        },
+        {
+            "id": 19,
+            "title": "Мототранспорт",
+            "category": "moto",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/motoCat.png"
+        },
+        {
+            "id": 20,
+            "title": "Аксессуары",
+            "category": "accesories",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/accesoriesCat.png"
+        },
+        {
+            "id": 21,
+            "title": "Сумки и чемоданы",
+            "category": "bags",
+            "dates": [],
+            "image": "/Assets/categoriesIcons/bigBagCat.png"
+        }
+    ]
+}
