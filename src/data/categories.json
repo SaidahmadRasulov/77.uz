@@ -2,147 +2,168 @@
     "categories": [
         {
             "id": 1,
-            "title": "Для женщин",
+            "title_ru": "Для женщин",
+            "title_uz": "Ayollar uchun",
             "category": "For woman",
             "dates": [],
             "image": "/Assets/categoriesIcons/womanCat.png"
         },
         {
             "id": 2,
-            "title": "Для мужчин",
+            "title_ru": "Для мужчин",
+            "title_uz": "Erkaklar uchun",
             "category": "For man",
             "dates": [],
             "image": "/Assets/categoriesIcons/manCat.png"
         },
         {
             "id": 3,
-            "title": "Детские товары",
-            "category": "chilred",
+            "title_ru": "Детские товары",
+            "title_uz": "Bolalar uchun",
+            "category": "children",
             "dates": [],
             "image": "/Assets/categoriesIcons/childrenCat.png"
         },
         {
             "id": 4,
-            "title": "Обувь",
+            "title_ru": "Обувь",
+            "title_uz": "Poyabzal",
             "category": "shoes",
             "dates": [],
             "image": "/Assets/categoriesIcons/shoesCat.png"
         },
         {
             "id": 5,
-            "title": "Автотовары",
+            "title_ru": "Автотовары",
+            "title_uz": "Mashina kismlari",
             "category": "autoparts",
             "dates": [],
             "image": "/Assets/categoriesIcons/autopartsCat.png"
         },
         {
             "id": 6,
-            "title": "Дача, сады и огороды",
+            "title_ru": "Дача, сады и огороды",
+            "title_uz": "Dachalar, bog'lar va sabzavot bog'lari",
             "category": "garden",
             "dates": [],
             "image": "/Assets/categoriesIcons/gardenCat.png"
         }, 
         {
             "id": 7,
-            "title": "Бытовая химия и личная гигиена",
+            "title_ru": "Бытовая химия и личная гигиена",
+            "title_uz": "Uy kimyoviy moddalari va shaxsiy gigiena",
             "category": "household",
             "dates": [],
             "image": "/Assets/categoriesIcons/chemicHomeCat.png"
         }, 
         {
             "id": 8,
-            "title": "Красота",
+            "title_ru": "Красота",
+            "title_uz": "Go'zallik",
             "category": "cosmetics",
             "dates": [],
             "image": "/Assets/categoriesIcons/cosmeticsCat.png"
         },
         {
             "id": 9,
-            "title": "Здоровья",
+            "title_ru": "Здоровья",
+            "title_uz": "Salomatlik",
             "category": "health",
             "dates": [],
             "image": "/Assets/categoriesIcons/healthCat.png"
         },
         {
             "id": 10,
-            "title": "Украшения и бижутерия",
+            "title_ru": "Украшения и бижутерия",
+            "title_uz": "Zargarlik buyumlari",
             "category": "decorations",
             "dates": [],
             "image": "/Assets/categoriesIcons/decorationsCat.png"
         },
         {
             "id": 11,
-            "title": "Канцелярия",
+            "title_ru": "Канцелярия",
+            "title_uz": "Idora",
             "category": "stationary",
             "dates": [],
             "image": "/Assets/categoriesIcons/stationeryCat.png"
         },
         {
             "id": 12,
-            "title": "Новые легковые автомобили",
+            "title_ru": "Новые легковые автомобили",
+            "title_uz": "Moshinalar",
             "category": "auto",
             "dates": [],
             "image": "/Assets/categoriesIcons/carCat.png"
         },
         {
             "id": 13,
-            "title": "Личная гигиена",
+            "title_ru": "Личная гигиена",
+            "title_uz": "Shaxsiy gigiena",
             "category": "selfclear",
             "dates": [],
             "image": "/Assets/categoriesIcons/chemicHomeCat.png"
         },
         {
             "id": 14,
-            "title": "Строительство и ремонт",
+            "title_ru": "Строительство и ремонт",
+            "title_uz": "Qurilish va ta'mirlash",
             "category": "build",
             "dates": [],
             "image": "/Assets/categoriesIcons/builderCat.png"
         },
         {
             "id": 15,
-            "title": "Бытовая техника",
+            "title_ru": "Бытовая техника",
+            "title_uz": "Maishiy texnika",
             "category": "appliances",
             "dates": [],
             "image": "/Assets/categoriesIcons/furnitureCat.png"
         },
         {
             "id": 16,
-            "title": "Электроника",
+            "title_ru": "Электроника",
+            "title_uz": "Elektronika",
             "category": "electronics",
             "dates": [],
             "image": "/Assets/categoriesIcons/electronicsCat.png"
         },
         {
             "id": 17,
-            "title": "Домашняя утварь",
+            "title_ru": "Домашняя утварь",
+            "title_uz": "Uy buyumlari",
             "category": "kitchen",
             "dates": [],
             "image": "/Assets/categoriesIcons/kitchenFurnitureCat.png"
         },
         {
             "id": 18,
-            "title": "Спорт и отдых",
+            "title_ru": "Спорт и отдых",
+            "title_uz": "Sport va dam olish",
             "category": "sport",
             "dates": [],
             "image": "/Assets/categoriesIcons/sportCat.png"
         },
         {
             "id": 19,
-            "title": "Мототранспорт",
+            "title_ru": "Мототранспорт",
+            "title_uz": "Mototsikl",
             "category": "moto",
             "dates": [],
             "image": "/Assets/categoriesIcons/motoCat.png"
         },
         {
             "id": 20,
-            "title": "Аксессуары",
+            "title_ru": "Аксессуары",
+            "title_uz": "Aksessuarlar",
             "category": "accesories",
             "dates": [],
             "image": "/Assets/categoriesIcons/accesoriesCat.png"
         },
         {
             "id": 21,
-            "title": "Сумки и чемоданы",
+            "title_ru": "Сумки и чемоданы",
+            "title_uz": "Sumkalar va chamadonlar",
             "category": "bags",
             "dates": [],
             "image": "/Assets/categoriesIcons/bigBagCat.png"
