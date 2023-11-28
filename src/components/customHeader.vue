@@ -1,5 +1,5 @@
 <template>
-  <header class="border-b-2 bg-[#FFFFFFEB]">
+  <header class="border-b-2 bg-[#FFFFFFEB]" ref="navbarRef">
     <div class="container w-[1200px] mx-auto">
       <div class="navbar py-5 flex items-center justify-between relative">
         <div class="navbar__select flex items-center gap-10">
@@ -41,11 +41,19 @@
             <img src="../Assets/Logo.png" alt="" />
           </RouterLink>
         </div>
-        <div class="navbar__sign">
+        <div class="navbar__sign" v-if="this.selectedValue === 'Русский'">
           <button
             class="flex items-center gap-3 p-2 bg-[#EAEDF0] rounded-lg hover:bg-[#2c6094] hover:text-white transition-all"
           >
             Войти
+            <i class="bx bx-log-in"></i>
+          </button>
+        </div>
+        <div class="navbar__sign" v-else>
+          <button
+            class="flex items-center gap-3 p-2 bg-[#EAEDF0] rounded-lg hover:bg-[#2c6094] hover:text-white transition-all"
+          >
+            Kirish
             <i class="bx bx-log-in"></i>
           </button>
         </div>
@@ -86,7 +94,15 @@ export default {
     }
   },
   mounted() {
-    console.log(this.selectData)
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 0) {
+        this.$refs.navbarRef.classList.add('custom_fixed');
+        console.log(this.$refs.navbarRef.classList)
+      } else {
+        this.$refs.navbarRef.classList.remove('custom_fixed');
+        console.log(this.$refs.navbarRef.classList)
+      }
+    })
   }
 }
 </script>

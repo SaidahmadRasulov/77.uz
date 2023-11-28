@@ -1,136 +1,148 @@
 {
-    "data": [
-        {
-            "id": 1,
-            "title": "Кепки Corneliani Diamond for him edition.",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "2 599 000",
-            "priceType": "uzs",
-            "category": "Man wears",
-            "image": "/Assets/productsImages/cap.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 2,
-            "title": "Chevrolet Onix 1.2 Turbo в наличии",
-            "region": "Samarqand",
-            "phone": "+998 71 200 70 07",
-            "price": "204 000 000",
-            "priceType": "uzs",
-            "category": "Car",
-            "image": "/Assets/productsImages/monza.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 3,
-            "title": "7Saber Trucker Cap",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "280 000",
-            "priceType": "uzs",
-            "category": "Man wears",
-            "image": "/Assets/productsImages/greenCap.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 4,
-            "title": "Оригинальные кроссовки Nike Air Max Plus",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "4 820 000",
-            "priceType": "uzs",
-            "category": "Man shoes",
-            "image": "/Assets/productsImages/shoesMan.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 5,
-            "title": "Оригинальные кроссовки Nike Air Max 97",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "4 820 000",
-            "priceType": "uzs",
-            "category": "Woman shoes",
-            "image": "/Assets/productsImages/shoesWoman.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 6,
-            "title": "Apple Watch Series 8 - USA Non active",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "4 500 000",
-            "priceType": "uzs",
-            "category": "Watch",
-            "image": "/Assets/productsImages/watch.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 7,
-            "title": "Лучший кроссовер Geely Monjaro Limited Edition",
-            "region": "Samarqand",
-            "phone": "+998 71 200 70 07",
-            "price": "320 000 000",
-            "priceType": "uzs",
-            "category": "Car",
-            "image": "/Assets/productsImages/jeep.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 8,
-            "title": "Стайлер для волос Dyson airwrap complete long",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "500",
-            "priceType": "usd",
-            "category": "Car",
-            "image": "/Assets/productsImages/jeep.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 9,
-            "title": "Кепки Corneliani Diamond for him edition.",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "2 599 000",
-            "priceType": "uzs",
-            "category": "Man wears",
-            "image": "/Assets/productsImages/cap.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 10,
-            "title": "Chevrolet Onix 1.2 Turbo в наличии",
-            "region": "Samarqand",
-            "phone": "+998 71 200 70 07",
-            "price": "204 000 000",
-            "priceType": "uzs",
-            "category": "Car",
-            "image": "/Assets/productsImages/monza.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 11,
-            "title": "7Saber Trucker Cap",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "280 000",
-            "priceType": "uzs",
-            "category": "Man wears",
-            "image": "/Assets/productsImages/greenCap.png",
-            "time": "Вчера, 19:20"
-        },
-        {
-            "id": 12,
-            "title": "Оригинальные кроссовки Nike Air Max Plus",
-            "region": "Tashkent",
-            "phone": "+998 71 200 70 07",
-            "price": "4 820 000",
-            "priceType": "uzs",
-            "category": "Man shoes",
-            "image": "/Assets/productsImages/shoesMan.png",
-            "time": "Вчера, 19:20"
-        }
-    ]
+  "data": [
+    {
+      "id": 1,
+      "title_ru": "Кепки Corneliani Diamond for him edition.",
+      "title_uz": "Corneliani Diamond kaptalari uchun uning tahriridagi",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "2 599 000",
+      "priceType": "uzs",
+      "category": "Man wears",
+      "image": "/Assets/productsImages/cap.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 2,
+      "title_ru": "Chevrolet Onix 1.2 Turbo в наличии",
+      "title_uz": "Chevrolet Onix 1.2 Turbo mavjud",
+      "region": "Samarqand",
+      "phone": "+998 71 200 70 07",
+      "price": "204 000 000",
+      "priceType": "uzs",
+      "category": "Car",
+      "image": "/Assets/productsImages/monza.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 3,
+      "title_ru": "7Saber Trucker Cap",
+      "title_uz": "7Saber Trucker Cap",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "280 000",
+      "priceType": "uzs",
+      "category": "Man wears",
+      "image": "/Assets/productsImages/greenCap.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 4,
+      "title_ru": "Оригинальные кроссовки Nike Air Max Plus",
+      "title_uz": "Nike Air Max Plus orijinal krossovkalari",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "4 820 000",
+      "priceType": "uzs",
+      "category": "Man shoes",
+      "image": "/Assets/productsImages/shoesMan.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 5,
+      "title_ru": "Оригинальные кроссовки Nike Air Max 97",
+      "title_uz": "Nike Air Max 97 orijinal krossovkalari",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "4 820 000",
+      "priceType": "uzs",
+      "category": "Woman shoes",
+      "image": "/Assets/productsImages/shoesWoman.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 6,
+      "title_ru": "Apple Watch Series 8 - USA Non active",
+      "title_uz": "Apple Watch Series 8 - USA Non active",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "4 500 000",
+      "priceType": "uzs",
+      "category": "Watch",
+      "image": "/Assets/productsImages/watch.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 7,
+      "title_ru": "Лучший кроссовер Geely Monjaro Limited Edition",
+      "title_uz": "Eng yaxshi Geely Monjaro Cheksiz chiqish edi",
+      "region": "Samarqand",
+      "phone": "+998 71 200 70 07",
+      "price": "320 000 000",
+      "priceType": "uzs",
+      "category": "Car",
+      "image": "/Assets/productsImages/jeep.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 8,
+      "title_ru": "Стайлер для волос Dyson airwrap complete long",
+      "title_uz": "Dyson airwrap complete long sochlar uchun styler",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "500",
+      "priceType": "usd",
+      "category": "Car",
+      "image": "/Assets/productsImages/jeep.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 9,
+      "title_ru": "Кепки Corneliani Diamond for him edition.",
+      "title_uz": "Corneliani Diamond kaptalari uchun uning tahriridagi",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "2 599 000",
+      "priceType": "uzs",
+      "category": "Man wears",
+      "image": "/Assets/productsImages/cap.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 10,
+      "title_ru": "Chevrolet Onix 1.2 Turbo в наличии",
+      "title_uz": "Chevrolet Onix 1.2 Turbo mavjud",
+      "region": "Samarqand",
+      "phone": "+998 71 200 70 07",
+      "price": "204 000 000",
+      "priceType": "uzs",
+      "category": "Car",
+      "image": "/Assets/productsImages/monza.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 11,
+      "title_ru": "7Saber Trucker Cap",
+      "title_uz": "7Saber Trucker Cap",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "280 000",
+      "priceType": "uzs",
+      "category": "Man wears",
+      "image": "/Assets/productsImages/greenCap.png",
+      "time": "Вчера, 19:20"
+    },
+    {
+      "id": 12,
+      "title_ru": "Оригинальные кроссовки Nike Air Max Plus",
+      "title_uz": "Nike Air Max Plus orijinal krossovkalari",
+      "region": "Tashkent",
+      "phone": "+998 71 200 70 07",
+      "price": "4 820 000",
+      "priceType": "uzs",
+      "category": "Man shoes",
+      "image": "/Assets/productsImages/shoesMan.png",
+      "time": "Вчера, 19:20"
+    }
+  ]
 }

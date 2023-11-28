@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom_fixed {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #388ff3;
+  border-radius: 20px;
+}
