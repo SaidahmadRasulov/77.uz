@@ -9,7 +9,7 @@
       "price": "2 599 000",
       "priceType": "uzs",
       "category": "Man wears",
-      "image": "/Assets/productsImages/cap.png",
+      "image": "../../src/Assets/productsImages/cap.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -21,7 +21,7 @@
       "price": "204 000 000",
       "priceType": "uzs",
       "category": "Car",
-      "image": "/Assets/productsImages/monza.png",
+      "image": "../../src/Assets/productsImages/monza.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -33,7 +33,7 @@
       "price": "280 000",
       "priceType": "uzs",
       "category": "Man wears",
-      "image": "/Assets/productsImages/greenCap.png",
+      "image": "../../src/Assets/productsImages/greenCap.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -45,7 +45,7 @@
       "price": "4 820 000",
       "priceType": "uzs",
       "category": "Man shoes",
-      "image": "/Assets/productsImages/shoesMan.png",
+      "image": "../../src/Assets/productsImages/shoesMan.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -57,7 +57,7 @@
       "price": "4 820 000",
       "priceType": "uzs",
       "category": "Woman shoes",
-      "image": "/Assets/productsImages/shoesWoman.png",
+      "image": "../../src/Assets/productsImages/shoesWoman.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -69,7 +69,7 @@
       "price": "4 500 000",
       "priceType": "uzs",
       "category": "Watch",
-      "image": "/Assets/productsImages/watch.png",
+      "image": "../../src/Assets/productsImages/watch.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -81,7 +81,7 @@
       "price": "320 000 000",
       "priceType": "uzs",
       "category": "Car",
-      "image": "/Assets/productsImages/jeep.png",
+      "image": "../../src/Assets/productsImages/jeep.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -93,7 +93,7 @@
       "price": "500",
       "priceType": "usd",
       "category": "Car",
-      "image": "/Assets/productsImages/jeep.png",
+      "image": "../../src/Assets/productsImages/jeep.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -105,7 +105,7 @@
       "price": "2 599 000",
       "priceType": "uzs",
       "category": "Man wears",
-      "image": "/Assets/productsImages/cap.png",
+      "image": "../../src/Assets/productsImages/cap.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -117,7 +117,7 @@
       "price": "204 000 000",
       "priceType": "uzs",
       "category": "Car",
-      "image": "/Assets/productsImages/monza.png",
+      "image": "../../src/Assets/productsImages/monza.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -129,7 +129,7 @@
       "price": "280 000",
       "priceType": "uzs",
       "category": "Man wears",
-      "image": "/Assets/productsImages/greenCap.png",
+      "image": "../../src/Assets/productsImages/greenCap.png",
       "time": "Вчера, 19:20"
     },
     {
@@ -141,7 +141,7 @@
       "price": "4 820 000",
       "priceType": "uzs",
       "category": "Man shoes",
-      "image": "/Assets/productsImages/shoesMan.png",
+      "image": "../../src/Assets/productsImages/shoesMan.png",
       "time": "Вчера, 19:20"
     }
   ]
