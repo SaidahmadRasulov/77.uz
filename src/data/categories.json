@@ -1,172 +1,172 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "title_ru": "Для женщин",
-            "title_uz": "Ayollar uchun",
-            "category": "For woman",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/womanCat.png"
-        },
-        {
-            "id": 2,
-            "title_ru": "Для мужчин",
-            "title_uz": "Erkaklar uchun",
-            "category": "For man",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/manCat.png"
-        },
-        {
-            "id": 3,
-            "title_ru": "Детские товары",
-            "title_uz": "Bolalar uchun",
-            "category": "children",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/childrenCat.png"
-        },
-        {
-            "id": 4,
-            "title_ru": "Обувь",
-            "title_uz": "Poyabzal",
-            "category": "shoes",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/shoesCat.png"
-        },
-        {
-            "id": 5,
-            "title_ru": "Автотовары",
-            "title_uz": "Mashina kismlari",
-            "category": "autoparts",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/autopartsCat.png"
-        },
-        {
-            "id": 6,
-            "title_ru": "Дача, сады и огороды",
-            "title_uz": "Dachalar, bog'lar va sabzavot bog'lari",
-            "category": "garden",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/gardenCat.png"
-        }, 
-        {
-            "id": 7,
-            "title_ru": "Бытовая химия и личная гигиена",
-            "title_uz": "Uy kimyoviy moddalari va shaxsiy gigiena",
-            "category": "household",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/chemicHomeCat.png"
-        }, 
-        {
-            "id": 8,
-            "title_ru": "Красота",
-            "title_uz": "Go'zallik",
-            "category": "cosmetics",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/cosmeticsCat.png"
-        },
-        {
-            "id": 9,
-            "title_ru": "Здоровья",
-            "title_uz": "Salomatlik",
-            "category": "health",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/healthCat.png"
-        },
-        {
-            "id": 10,
-            "title_ru": "Украшения и бижутерия",
-            "title_uz": "Zargarlik buyumlari",
-            "category": "decorations",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/decorationsCat.png"
-        },
-        {
-            "id": 11,
-            "title_ru": "Канцелярия",
-            "title_uz": "Idora",
-            "category": "stationary",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/stationeryCat.png"
-        },
-        {
-            "id": 12,
-            "title_ru": "Новые легковые автомобили",
-            "title_uz": "Moshinalar",
-            "category": "auto",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/carCat.png"
-        },
-        {
-            "id": 13,
-            "title_ru": "Личная гигиена",
-            "title_uz": "Shaxsiy gigiena",
-            "category": "selfclear",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/chemicHomeCat.png"
-        },
-        {
-            "id": 14,
-            "title_ru": "Строительство и ремонт",
-            "title_uz": "Qurilish va ta'mirlash",
-            "category": "build",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/builderCat.png"
-        },
-        {
-            "id": 15,
-            "title_ru": "Бытовая техника",
-            "title_uz": "Maishiy texnika",
-            "category": "appliances",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/furnitureCat.png"
-        },
-        {
-            "id": 16,
-            "title_ru": "Электроника",
-            "title_uz": "Elektronika",
-            "category": "electronics",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/electronicsCat.png"
-        },
-        {
-            "id": 17,
-            "title_ru": "Домашняя утварь",
-            "title_uz": "Uy buyumlari",
-            "category": "kitchen",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/kitchenFurnitureCat.png"
-        },
-        {
-            "id": 18,
-            "title_ru": "Спорт и отдых",
-            "title_uz": "Sport va dam olish",
-            "category": "sport",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/sportCat.png"
-        },
-        {
-            "id": 19,
-            "title_ru": "Мототранспорт",
-            "title_uz": "Mototsikl",
-            "category": "moto",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/motoCat.png"
-        },
-        {
-            "id": 20,
-            "title_ru": "Аксессуары",
-            "title_uz": "Aksessuarlar",
-            "category": "accesories",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/accesoriesCat.png"
-        },
-        {
-            "id": 21,
-            "title_ru": "Сумки и чемоданы",
-            "title_uz": "Sumkalar va chamadonlar",
-            "category": "bags",
-            "dates": [],
-            "image": "/Assets/categoriesIcons/bigBagCat.png"
-        }
-    ]
+  "categories": [
+    {
+      "id": 1,
+      "title_ru": "Для женщин",
+      "title_uz": "Ayollar uchun",
+      "category": "For woman",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/womanCat.png"
+    },
+    {
+      "id": 2,
+      "title_ru": "Для мужчин",
+      "title_uz": "Erkaklar uchun",
+      "category": "For man",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/manCat.png"
+    },
+    {
+      "id": 3,
+      "title_ru": "Детские товары",
+      "title_uz": "Bolalar buyumlari",
+      "category": "children",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/childrenCat.png"
+    },
+    {
+      "id": 4,
+      "title_ru": "Обувь",
+      "title_uz": "Poyafzallar",
+      "category": "shoes",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/shoesCat.png"
+    },
+    {
+      "id": 5,
+      "title_ru": "Автотовары",
+      "title_uz": "Avtotovarlar",
+      "category": "autoparts",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/carpartsCat.png"
+    },
+    {
+      "id": 6,
+      "title_ru": "Дача, сады и огороды",
+      "title_uz": "Dacha va Bog uchun",
+      "category": "garden",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/gardenCat.png"
+    },
+    {
+      "id": 7,
+      "title_ru": "Бытовая химия и личная гигиена",
+      "title_uz": "Uy gigiyenasi",
+      "category": "household",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/chemicHomeCat.png"
+    },
+    {
+      "id": 8,
+      "title_ru": "Красота",
+      "title_uz": "Gozallik",
+      "category": "cosmetics",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/cosmeticsCat.png"
+    },
+    {
+      "id": 9,
+      "title_ru": "Здоровья",
+      "title_uz": "Salomatlik",
+      "category": "health",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/healthCat.png"
+    },
+    {
+      "id": 10,
+      "title_ru": "Украшения и бижутерия",
+      "title_uz": "Zargar buyumlari",
+      "category": "decorations",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/decorationsCat.png"
+    },
+    {
+      "id": 11,
+      "title_ru": "Канцелярия",
+      "title_uz": "Qalam do'koni",
+      "category": "stationary",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/stationeryCat.png"
+    },
+    {
+      "id": 12,
+      "title_ru": "Новые легковые автомобили",
+      "title_uz": "Yangi avtomobillar",
+      "category": "auto",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/carCat.png"
+    },
+    {
+      "id": 13,
+      "title_ru": "Личная гигиена",
+      "title_uz": "Shaxsiy gigiyena",
+      "category": "selfclear",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/chemicHomeCat.png"
+    },
+    {
+      "id": 14,
+      "title_ru": "Строительство и ремонт",
+      "title_uz": "Qurish va ta'mirlash",
+      "category": "build",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/builderCat.png"
+    },
+    {
+      "id": 15,
+      "title_ru": "Бытовая техника",
+      "title_uz": "Uy jihozlari",
+      "category": "appliances",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/furnitureCat.png"
+    },
+    {
+      "id": 16,
+      "title_ru": "Электроника",
+      "title_uz": "Elektronika",
+      "category": "electronics",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/electronicsCat.png"
+    },
+    {
+      "id": 17,
+      "title_ru": "Домашняя утварь",
+      "title_uz": "Idiw buyumlari",
+      "category": "kitchen",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/kitchenFurnitureCat.png"
+    },
+    {
+      "id": 18,
+      "title_ru": "Спорт и отдых",
+      "title_uz": "Sport va dam olish",
+      "category": "sport",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/sportCat.png"
+    },
+    {
+      "id": 19,
+      "title_ru": "Мототранспорт",
+      "title_uz": "Moto transport",
+      "category": "moto",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/motoCat.png"
+    },
+    {
+      "id": 20,
+      "title_ru": "Аксессуары",
+      "title_uz": "Aksessuarlar",
+      "category": "accesories",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/accesoriesCat.png"
+    },
+    {
+      "id": 21,
+      "title_ru": "Сумки и чемоданы",
+      "title_uz": "Sumkalar va chamodonlar",
+      "category": "bags",
+      "dates": [],
+      "image": "../../src/Assets/categoriesIcons/bigBagCat.png"
+    }
+  ]
 }
