@@ -22,7 +22,7 @@
               <div class="language_content" v-for="item in selectData" :key="item.id">
                 <div
                   class="language_item flex items-center gap-3 mb-2 cursor-pointer hover:text-blue transition-all"
-                  @click="setValue(`$t(${item.title})`)"
+                  @click="setValue(item.title)"
                 >
                   <img :src="item.image" :alt="item.title" />
                   <p>{{ $t(`${item.title}`) }}</p>
