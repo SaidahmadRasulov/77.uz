@@ -1,11 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import './main.css';
-const app = createApp(App)
-
+import './main.css'
+import i18n from './i18n.js'
+const app = createApp(App);
 app.use(router)
-
+app.use(i18n)
 app.mount('#app')
-
-console.log(router.options.history.state.current)
