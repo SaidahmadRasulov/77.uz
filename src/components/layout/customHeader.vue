@@ -1,3 +1,33 @@
+<script setup>
+import { data } from '../../data/fake'
+import { onMounted } from 'vue'
+let boolean = false
+const selectData = [
+  {
+    id: 1,
+    title: 'Русский',
+    val: 'rus',
+    image: '../src/Assets/rusLang.png'
+  },
+  {
+    id: 2,
+    title: 'O’zbekcha',
+    val: 'uz',
+    image: '../src/Assets/uzbLang.png'
+  }
+]
+
+onMounted(() => {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      this.$refs.navbarRef.classList.add('custom_fixed')
+    } else {
+      this.$refs.navbarRef.classList.remove('custom_fixed')
+    }
+  })
+})
+</script>
+
 <template>
   <header class="border-b-2 bg-[#FFFFFFEB]" ref="navbarRef">
     <div class="container w-[1200px] mx-auto">
@@ -6,17 +36,17 @@
           <div class="navbar__select_content">
             <div
               class="language_show flex items-center gap-2 relative cursor-pointer"
-              @click="handleToggle()"
+              @click="handleToggle"
             >
               <div class="w-[110px] flex items-center gap-3">
                 <img :src="selectedImage" alt="" />
-                <p :class="{ 'text-blue': this.boolean }">{{ selectedValue }}</p>
+                <p :class="{ 'text-blue': boolean }">{{ selectedValue }}</p>
               </div>
-              <i v-if="!this.boolean" class="bx bx-chevron-up text-[20px]"></i>
+              <i v-if="!boolean" class="bx bx-chevron-up text-[20px]"></i>
               <i v-else class="bx bx-chevron-down text-blue text-[20px]"></i>
             </div>
             <div
-              v-if="this.boolean"
+              v-if="boolean"
               class="transition-all delay-100 duration-300 absolute left-0 shadow-2xl rounded-xl px-4 bg-white"
             >
               <div class="language_content" v-for="item in selectData" :key="item.id">
@@ -25,7 +55,7 @@
                   @click="setValue(item.title)"
                 >
                   <img :src="item.image" :alt="item.title" />
-                  <p>{{ $t(`${item.title}`) }}</p>
+                  <p>{{ item.title }}</p>
                 </div>
               </div>
             </div>
@@ -40,26 +70,18 @@
             </a>
           </p>
         </div>
-        <div class="navbar__logo p-4 bg-white shadow-2xl rounded-2xl rounded-t-none absolute translate-x-[-50%] left-[50%] hover:cursor-pointer"
+        <div
+          class="navbar__logo p-4 bg-white shadow-2xl rounded-2xl rounded-t-none absolute translate-x-[-50%] left-[50%] hover:cursor-pointer"
         >
           <RouterLink to="/">
             <img src="../Assets/Logo.png" alt="" />
           </RouterLink>
         </div>
-        <h1>{{ $t('cat_title') }}</h1>
-        <div class="navbar__sign" v-if="this.selectedValue === 'rus'">
+        <div class="navbar__sign">
           <button
             class="flex items-center gap-3 p-2 bg-[#EAEDF0] rounded-lg hover:bg-[#2c6094] hover:text-white transition-all"
           >
-            Войти
-            <i class="bx bx-log-in"></i>
-          </button>
-        </div>
-        <div class="navbar__sign" v-else>
-          <button
-            class="flex items-center gap-3 p-2 bg-[#EAEDF0] rounded-lg hover:bg-[#2c6094] hover:text-white transition-all"
-          >
-            Kirish
+            {{ $t('enter') }}
             <i class="bx bx-log-in"></i>
           </button>
         </div>
@@ -67,56 +89,3 @@
     </div>
   </header>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      bool: false
-    }
-  },
-  props: {
-    selectedValue: {
-      type: String,
-      required: true
-    },
-    selectData: {
-      type: Array,
-      required: true
-    },
-    boolean: {
-      type: Boolean,
-      required: true
-    },
-    selectedImage: {
-      type: String,
-      required: true
-    }
-  },
-  methods: {
-    setValue(value) {
-      this.$emit('set', value)
-    },
-    updateSelected(value) {
-      this.$emit('update', value)
-    },
-    handleToggle(boolean) {
-      this.$emit('toggle', boolean)
-    },
-    toggle() {
-      this.bool = !this.bool
-    }
-  },
-  mounted() {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 0) {
-        this.$refs.navbarRef.classList.add('custom_fixed')
-      } else {
-        this.$refs.navbarRef.classList.remove('custom_fixed')
-      }
-    })
-  }
-}
-</script>
-
-<style lang=""></style>

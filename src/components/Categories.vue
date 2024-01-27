@@ -26,11 +26,12 @@
       </div>
       <div class="category__content flex flex-wrap justify-between gap-4 my-[3rem]">
         <div
-          class="category__card cursor-pointer flex items-center gap-4 p-[1rem] border-[1px] w-[30%] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.3)] rounded-lg relative hover:border-blue hover:shadow-blue transition-all hover:text-blue group"
+          class="category__card cursor-pointer flex items-center gap-4 p-4 border w-[30%] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.3)] rounded-lg relative hover:border-blue hover:shadow-blue transition-all hover:text-blue group"
           v-for="item in categories"
+          :key="item"
         >
           <div
-            class="category__card_header group-hover:shadow-blue p-3 left-[-2rem] absolute shadow-[0px_0px_5px_0px_rgba(0,0,0,0.3)] rounded-lg bg-[#ffffff]"
+            class="category__card_header group-hover:shadow-blue p-3 -left-8 absolute shadow-[0px_0px_5px_0px_rgba(0,0,0,0.3)] rounded-lg bg-[#ffffff]"
           >
             <img :src="`${item.image}`" alt="" />
           </div>
@@ -54,16 +55,6 @@ export default {
       searchModel: ''
     }
   },
-  props: {
-    categories: {
-      type: Array,
-      required: true
-    },
-    selectedValue: {
-      type: String,
-      required: true
-    }
-  }
 }
 </script>
 <style lang=""></style>
