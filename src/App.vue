@@ -13,13 +13,10 @@ import CustomHeader from './components/layout/customHeader.vue'
 export default {
   data() {
     return {
-      date: [],
-      categoryDate: [],
       selectedValue: 'Русский',
       langValue: 'rus',
       selectedImage: '../src/Assets/rusLang.png',
       boolean: false,
-      
     }
   },
   components: {

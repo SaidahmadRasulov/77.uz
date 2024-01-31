@@ -1,12 +1,23 @@
 <script setup>
-import { data } from '../../data/fake'
-import { onMounted } from 'vue'
-let boolean = false
+import { onMounted, ref } from 'vue'
+import Sign from '../widgets/Sign.vue'
+import SignForm from '../widgets/SignForm.vue'
+const navbarRef = ref()
+let formBoolean = false
+let language = null
+let localObj = {
+  id: Date.now(),
+  title: null,
+  image: null,
+  val: null
+}
+const storedObj = JSON.parse(localStorage.getItem('obj'))
+const boolean = ref(false)
 const selectData = [
   {
     id: 1,
     title: 'Русский',
-    val: 'rus',
+    val: 'ru',
     image: '../src/Assets/rusLang.png'
   },
   {
@@ -17,12 +28,30 @@ const selectData = [
   }
 ]
 
+function handleToggle() {
+  boolean.value = !boolean.value
+}
+
+function setValue(obj) {
+  localObj.title = obj.title
+  const selectedItem = selectData.find((item) => item.title === obj.title)
+  if (selectedItem) {
+    localObj = selectedItem
+    localStorage.setItem('obj', JSON.stringify(localObj))
+  }
+  language = obj.val
+  if (language !== null) {
+    localStorage.setItem('lang', language)
+    window.location.reload()
+  }
+}
+
 onMounted(() => {
   window.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
-      this.$refs.navbarRef.classList.add('custom_fixed')
+      navbarRef.classList.add('custom_fixed')
     } else {
-      this.$refs.navbarRef.classList.remove('custom_fixed')
+      navbarRef.classList.remove('custom_fixed')
     }
   })
 })
@@ -33,26 +62,29 @@ onMounted(() => {
     <div class="container w-[1200px] mx-auto">
       <div class="navbar py-5 flex items-center justify-between relative">
         <div class="navbar__select flex items-center gap-10">
-          <div class="navbar__select_content">
+          <div class="navbar__select_content relative">
             <div
               class="language_show flex items-center gap-2 relative cursor-pointer"
               @click="handleToggle"
             >
               <div class="w-[110px] flex items-center gap-3">
-                <img :src="selectedImage" alt="" />
-                <p :class="{ 'text-blue': boolean }">{{ selectedValue }}</p>
+                <img :src="storedObj.image" alt="" />
+                <p :class="{ 'text-blue': boolean }">{{ storedObj.title }}</p>
               </div>
-              <i v-if="!boolean" class="bx bx-chevron-up text-[20px]"></i>
-              <i v-else class="bx bx-chevron-down text-blue text-[20px]"></i>
+              <i
+                class="text-[20px]"
+                :class="{ 'bx bx-chevron-up': !boolean, 'bx bx-chevron-down text-blue': boolean }"
+              ></i>
             </div>
             <div
               v-if="boolean"
+              @click="handleToggle"
               class="transition-all delay-100 duration-300 absolute left-0 shadow-2xl rounded-xl px-4 bg-white"
             >
               <div class="language_content" v-for="item in selectData" :key="item.id">
                 <div
                   class="language_item flex items-center gap-3 mb-2 cursor-pointer hover:text-blue transition-all"
-                  @click="setValue(item.title)"
+                  @click="setValue(item)"
                 >
                   <img :src="item.image" :alt="item.title" />
                   <p>{{ item.title }}</p>
@@ -74,18 +106,14 @@ onMounted(() => {
           class="navbar__logo p-4 bg-white shadow-2xl rounded-2xl rounded-t-none absolute translate-x-[-50%] left-[50%] hover:cursor-pointer"
         >
           <RouterLink to="/">
-            <img src="../Assets/Logo.png" alt="" />
+            <img src="../../Assets/logo.png" alt="" />
           </RouterLink>
         </div>
-        <div class="navbar__sign">
-          <button
-            class="flex items-center gap-3 p-2 bg-[#EAEDF0] rounded-lg hover:bg-[#2c6094] hover:text-white transition-all"
-          >
-            {{ $t('enter') }}
-            <i class="bx bx-log-in"></i>
-          </button>
-        </div>
+        <Sign :formBoolean="formBoolean" />
       </div>
     </div>
   </header>
+  <section v-if="formBoolean">
+    <SignForm />
+  </section>
 </template>

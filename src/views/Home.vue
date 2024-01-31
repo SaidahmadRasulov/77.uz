@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#F0F3F7] py-[3rem]">
-    <Categories :selectedValue=selectedValue :products="products" :categories="categories" />
-    <Products :selectedValue=selectedValue :products="products" />
+    <Categories />
+    <Products />
   </div>
 </template>
 <script>
@@ -10,20 +10,6 @@ import Products from '../components/Products.vue';
 
 export default {
   components: { Categories, Products },
-  props: {
-    products: {
-        type: Array,
-        required: true
-    },
-    categories: {
-        type: Array,
-        required: true
-    },
-    selectedValue: {
-        type: String,
-        required: true
-    }
-  }
 }
 </script>
 <style lang=""></style>
